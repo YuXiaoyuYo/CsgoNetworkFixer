@@ -35,7 +35,7 @@ namespace Csgo_Fixer
 
         private void button4_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("CMD.exe", "/c ipconfig /flushdns");
+            System.Diagnostics.Process.Start("Taskkill.exe", "/im qqprotect.exe /f");
         }
 
         private void button5_Click(object sender, EventArgs e)
