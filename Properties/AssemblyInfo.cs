@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("Csgo Fixer")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("CsgoNetworkFixer")]
+[assembly: AssemblyDescription("解决CSGO匹配不可用")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Csgo Fixer")]
-[assembly: AssemblyCopyright("Copyright ©  2022")]
+[assembly: AssemblyProduct("CsgoNetworkFixer")]
+[assembly: AssemblyCopyright("Copyright ©  2022 YuXiaoyu")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
