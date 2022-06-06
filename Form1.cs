@@ -35,7 +35,10 @@ namespace Csgo_Fixer
 
         private void button4_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("Taskkill.exe", "/im qqprotect.exe /f");
+            if (MessageBox.Show("这将会导致QQ系软件停止运行\n确认要这么做吗？", "", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                System.Diagnostics.Process.Start("Taskkill.exe", "/im qqprotect.exe /f");
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
