@@ -52,7 +52,7 @@ namespace Csgo_Fixer
                 System.Diagnostics.Process.Start("ipconfig.exe", "/renew");
                 System.Diagnostics.Process.Start("taskkill.exe", "/im qqprotect.exe /f");
                 System.Diagnostics.Process.Start("taskkill.exe", "/im csgo.exe /f");
-                MessageBox.Show("成功！\n享受宁的CSGO吧");
+                MessageBox.Show("成功！\n享受宁的CSGO8吧");
             }
         }
         private void button7_Click(object sender, EventArgs e)
